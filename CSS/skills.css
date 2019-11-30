@@ -1,7 +1,11 @@
 body{
-	background-color:#eee;
+    background:#eee;
 	margin:0;
 	padding:0;
+	cursor:url(../img/mouse/1.cur),auto;
+}
+a:hover{
+	cursor:url(../img/mouse/2.cur),pointer;
 }
 div{
 	width:40%;
