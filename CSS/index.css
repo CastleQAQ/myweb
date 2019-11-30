@@ -1,0 +1,39 @@
+body{
+    background:#ccc;
+	margin:0;
+	padding:0;
+	background-image:url(../img/index-bg.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration:none;
+}
+.tx{
+	width:160px;
+    height:200px;
+	margin:388px auto 0;
+	
+}
+.tx div{
+	margin:0 auto;
+	width: 145px;
+	height: 145px;
+
+	
+}
+.tx div img {
+	width: 145px;
+	height: 145px;
+	border-radius: 50%;
+}
+.tx span{
+	display:block;
+	width:154px;
+	height:60px;
+	color:#1E90FF;
+	font-size:18px;
+	margin:0 auto;
+	padding-top:10px;
+	font-style:
+}

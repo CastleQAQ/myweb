@@ -1,0 +1,150 @@
+body{
+    background:#eee;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+div{
+	display:black;
+}
+.tx-bg{
+	background-image:url(../img/bt-bg.jpg);
+	width: 100%;
+    height: 300px;
+	background-position:center;
+	background-repeat: no-repeat;
+	
+}
+.tx{
+	width:160px;
+    height:200px;
+	margin:0 auto;
+	padding-top:70px;
+}
+.tx div{
+	margin:0 auto;
+	width: 145px;
+	height: 145px;
+
+	
+}
+.tx div img {
+	width: 145px;
+	height: 145px;
+	border-radius: 50%;
+}
+.tx span{
+	display:block;
+	width:154px;
+	height:60px;
+	color:#1E90FF;
+	font-size:18px;
+	margin:0 auto;
+	padding-top:10px;
+	font-style:
+}
+.hd{
+	width:100%;
+	height:55px;
+	background:black;
+	box-shadow:0px 5px 10px rgba(102,204,255, 0.5);
+}
+.hd-lift {
+	margin:0;
+	
+}
+.hd-lift a {
+	float:left;
+	width:200px;
+	display:black;
+	margin-left:25px;
+	margin-top:18px;
+	color:white;
+}
+.hd-lift a:hover{
+	color:ccc;
+}
+.hd-right{
+	float:right;
+}
+.hd-right ul {
+	list-style:none;
+}
+.hd-right ul li {
+	display:black;
+	float:right;
+	margin:0;
+	width:85px;
+	text-align:center;
+}
+.hd-right ul li a{
+	color:white;
+	
+}
+.hd-right ul li a:hover{
+	color:ccc;
+}
+.xs{
+	width:100%;
+	height:-webkit-fill-available;
+    margin: 20px 0px 0px 0px;
+    display: block;
+}
+.tops{
+	display: block;
+    width: 100px;
+    height: 184.72px;
+    position: absolute;
+    bottom: -390px;
+    right: 0;
+}
+.db{
+	width:100%;
+	height:200px;
+	box-shadow:0px -5px 10px rgba(102,204,255, 0.5);
+	background-color:#ccc;
+	margin-top:25px;
+}
+.db div{
+	float:left;
+	color: lightcyan;
+
+}
+.db-lift{
+	width:25%;
+	height:200px;
+	margin-left:4%;
+	margin-right:4%;
+	text-align:center;
+	
+}
+.db-center{
+	width:26%;
+	height:200px;
+	margin-left:4%;
+	margin-right:4%;
+}
+.db-right{
+	width:25%;
+	height:200px;
+	margin-left:4%;
+	margin-right:4%;
+}
+.db-right img{
+	
+	display:block;
+	margin:0 auto;
+	
+}
+.db a{
+	color: lightcyan;
+	display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+.db a:hover{
+	color:eee;
+}
