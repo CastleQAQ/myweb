@@ -2,6 +2,10 @@ body{
     background:#ccc;
 	margin:0;
 	padding:0;
+	cursor:url(../img/mouse/1.cur),auto;
+}
+a:hover{
+	cursor:url(../img/mouse/2.cur),pointer;
 }
 .bg{
 position:absolute;
@@ -43,4 +47,10 @@ a{
 	margin:0 auto;
 	padding-top:10px;
 	font-style:
+}
+.header {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    pointer-events: none;
 }
