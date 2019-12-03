@@ -23,7 +23,7 @@ a.an{
 a.an:hover{
 	color:#eee;
 }
-div{
+.px div{
 	display:block;
 	float:left;
 	width:40%;

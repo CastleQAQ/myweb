@@ -15,11 +15,14 @@ div{
 	display:black;
 }
 .tx-bg{
-	background-image:url(../img/bt-bg.jpg);
+	position:absolute;
+	left:0;
+	top:0;
+	background-attachment:fixed;
+	background:url(../img/bt-bg.jpg) center 0 no-repeat;
 	width: 100%;
     height: 300px;
-	background-position:center;
-	background-repeat: no-repeat;
+	background-size:cover;
 	
 }
 .tx{
@@ -51,6 +54,9 @@ div{
 	font-style:
 }
 .hd{
+	position:absolute;
+	left:0;
+	top:300px;
 	width:100%;
 	height:55px;
 	background:black;
@@ -62,14 +68,18 @@ div{
 }
 .hd-lift a {
 	float:left;
-	width:200px;
-	display:black;
 	margin-left:25px;
 	margin-top:18px;
 	color:white;
 }
 .hd-lift a:hover{
 	color:ccc;
+}
+.hd-center{
+	float: left;
+    height: 55px;
+    width: 300px;
+	margin-left: 10%;
 }
 .hd-right{
 	float:right;
@@ -92,6 +102,9 @@ div{
 	color:ccc;
 }
 .xs{
+	position:absolute;
+	left:0;
+	top:355px;
 	width:100%;
 	height:900px;
     margin: 20px 0px 0px 0px;
@@ -99,13 +112,15 @@ div{
 }
 .tops{
 	display: block;
-    width: 100px;
-    height: 184.72px;
-    position: absolute;
-    bottom: -390px;
+    position: fixed;
     right: 0;
+	bottom: 0;
+	opacity: 0.7;
 }
 .db{
+	position:absolute;
+	left:0;
+	top:1255px;
 	width:100%;
 	height:200px;
 	box-shadow:0px -5px 10px rgba(102,204,255, 0.5);
@@ -151,4 +166,12 @@ div{
 }
 .db a:hover{
 	color:eee;
+}
+.kbn{
+	display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+	z-index:1;
+    pointer-events: none;
 }

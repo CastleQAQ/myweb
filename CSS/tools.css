@@ -12,9 +12,7 @@ body{
 	
 }
 div{
-	float:left;
-	width:40%;
-	margin-left:5%;
+
 }
 a{
 	text-decoration:none;
@@ -26,15 +24,17 @@ a:hover{
 h1{
 	text-align:center;
 }
-.left{
-
+.px div{
+	float:left;
+	width:40%;
+	margin-left:5%;
 	
 }
-.left p{
+.px p{
 	
 }
 
-.left p span {
+.px p span {
 	float:right;
 	margin-right:25px;
 }

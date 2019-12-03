@@ -82,6 +82,9 @@ Slider
 .cd-slider li:nth-of-type(4) .image {
   background-image: url(../img/skills/ps.jpg);
 }
+.cd-slider li:nth-of-type(5) .image {
+  background-image: url(../img/skills/ps.jpg);
+}
 .cd-slider .image {
   background-size:contain;
   background-color:#eee;
