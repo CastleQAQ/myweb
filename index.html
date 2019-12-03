@@ -12,18 +12,37 @@
         <title>CastleCat</title>
         </head>
         <body>
+		
+		
+		
 		<div class="bg">
+		
 		<div class="tx" >
 			<a href="senter.html" > 
 				<div><img src="img/1.jpg" ></div>
 				<span>Hi this's CastleCat</span>
 			</a>
 		</div>
+		<header class="header">
+		</header><!-- 气泡 -->
 		</div>
+		
 		<embed autoplay="autoplay" src="mp3/miao.mp3"  hidden="true" autostart="true" ></embed>
 		
 		<!-- <script src="js/hongxin.js"></script> -->
 		<script src="js/diy.js"></script>
-		
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/circleMagic.min.js"></script>
+		<script>
+				$('.header').circleMagic({
+					elem: '.header',
+					radius: 35,
+					densety: .3,
+					color: 'rgba(255,255,255, .4)',
+					//color: 'random',
+					clearOffset: .3
+				});
+		</script>
+
         </body>
 </html>
