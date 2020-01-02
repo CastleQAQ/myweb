@@ -107,8 +107,9 @@ div{
 	top:355px;
 	width:80%;
 	height:900px;
-    margin: 20px 0px 0px 0px;
-    display: block;
+  	margin: 20px 0px 0px 0px;
+  	display: block;
+	opacity: 0.8;
 }
 .tops{
 	display: block;
