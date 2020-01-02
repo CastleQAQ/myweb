@@ -1,9 +1,23 @@
 body{
-    background:#eee;
 	margin:0;
 	padding:0;
+	padding-top:50px;
 	cursor:url(../img/mouse/1.cur),auto;
 	width: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:url(../img/index-bg.jpg) center 0 no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.body{
+	position:absolute;
+	width:80%;
+	left:10%;
+	
 }
 a:hover{
 	cursor:url(../img/mouse/2.cur),pointer;
@@ -19,12 +33,10 @@ div{
 	position:absolute;
 	left:0;
 	top:0;
-	background-attachment:fixed;
-	background:url(../img/bt-bg.jpg) center 0 no-repeat;
+	/* background:url(../img/bt-bg.jpg) center 0 no-repeat; */
 	width: 100%;
     height: 300px;
-	background-size:cover;
-	
+	background-color:rgba(255,255,255,0.5);
 }
 .tx{
 	width:160px;
@@ -61,7 +73,7 @@ div{
 	width:100%;
 	height:55px;
 	background:black;
-	box-shadow:0px 5px 10px rgba(102,204,255, 0.5);
+	background-color:rgba(255,255,255,0.5);
 }
 .hd-lift {
 	margin:0;
@@ -71,7 +83,7 @@ div{
 	float:left;
 	margin-left:25px;
 	margin-top:18px;
-	color:white;
+	color:black;
 }
 .hd-lift a:hover{
 	color:ccc;
@@ -96,7 +108,7 @@ div{
 	text-align:center;
 }
 .hd-right ul li a{
-	color:white;
+	color:black;
 	
 }
 .hd-right ul li a:hover{
@@ -105,33 +117,32 @@ div{
 .xs{
 	position:absolute;
 	left:0;
-	top:344px;
+	top:335px;
 	width:100%;
 	height:-webkit-fill-available;
     margin: 20px 0px 0px 0px;
     display: block;
-	
+	height: 900px;
 }
 .tops{
 	display: block;
     position: fixed;
     right: 0;
 	bottom: 0;
-	opacity: 0.7;
+	opacity: 0.95;
 }
 .db{
 	position:absolute;
 	left:0;
-	top:1255px;
+	top:1230px;
 	width:100%;
 	height:200px;
-	box-shadow:0px -5px 10px rgba(102,204,255, 0.5);
-	background-color:#ccc;
+	background-color:rgba(255,255,255,0.5);
 	margin-top:25px;
 }
 .db div{
 	float:left;
-	color: lightcyan;
+	color: black;
 
 }
 .db-lift{
@@ -161,19 +172,17 @@ div{
 	
 }
 .db a{
-	color: lightcyan;
+	color: black;
 	display: block;
     text-align: center;
     padding-top: 10px;
 }
 .db a:hover{
-	color:eee;
+	color:ccc;
 }
-.kbn{
-	display: block;
-    position: fixed;
+.kong{
+	position: absolute;
+    height: 50;
     width: 100%;
-    height: 100%;
-	z-index:1;
-    pointer-events: none;
+    top: 1430px;
 }
