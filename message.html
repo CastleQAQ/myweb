@@ -10,13 +10,15 @@
 		<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
 		<script src="https://jjeejj.github.io/js/gitment.js"></script>
 		<script>
+		var clientId = '2b67410ec4bd18d867ab'
+		var clientSecret = '173e74bf51fca5663879813bb0036b201c15e497'
 		var gitment = new Gitment({
 		  id: '页面 ID', // 可选。默认为 location.href
-		  owner: '你的 GitHub ID',
-		  repo: '存储评论的 repo',
+		  owner: 'CastleQAQ',
+		  repo: 'myweb',
 		  oauth: {
-			client_id: '2b67410ec4bd18d867ab',
-			client_secret: '173e74bf51fca5663879813bb0036b201c15e497',
+			client_id: '你的 client ID',
+			client_secret: '你的 client secret',
 		  },
 		})
 		gitment.render('container')
