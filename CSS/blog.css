@@ -20,7 +20,7 @@
 }
 
 body {
-  background: #eee;
+  background: #fff;
   color: #7b7b7b;
   font-weight: 400;
   font-size: 16px;
@@ -733,7 +733,6 @@ button:focus {
   body,
   .container,
   .main {
- 
   }
 
   .main {

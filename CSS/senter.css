@@ -3,6 +3,7 @@ body{
 	margin:0;
 	padding:0;
 	cursor:url(../img/mouse/1.cur),auto;
+	width: 100%;
 }
 a:hover{
 	cursor:url(../img/mouse/2.cur),pointer;
@@ -104,11 +105,11 @@ div{
 .xs{
 	position:absolute;
 	left:10%;
-	top:344px;
+	top:355px;
 	width:80%;
-	height:900px;
-  	margin: 20px 0px 0px 0px;
-  	display: block;
+	height:-webkit-fill-available;
+    margin: 20px 0px 0px 0px;
+    display: block;
 	opacity: 0.8;
 }
 .tops{
