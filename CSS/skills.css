@@ -123,6 +123,11 @@ Slider
 .cd-slider li:nth-of-type(4) .content {
   background-color: #f46c6a;
 }
+.cd-slider li:nth-of-type(5) .content {
+  background-color: bisque;
+  color: black;
+  
+}
 .cd-slider h2 {
   font-size: 2.2rem;
   margin-bottom: .4em;
