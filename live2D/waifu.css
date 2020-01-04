@@ -23,7 +23,7 @@
 }
 
 #waifu {
-	bottom: 0;
+	bottom: -15px;
 	left: 0;
 	line-height: 0;
 	position: fixed;
