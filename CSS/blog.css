@@ -26,7 +26,7 @@ body {
   font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei","Martel Sans", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  /* overflow: hidden; */
   cursor:url(../img/mouse/1.cur),auto;
   /* force scroll to appear */
 }
@@ -509,7 +509,7 @@ button:focus {
   position: absolute;
   top: 0;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 0;
   opacity: 0;
   padding: 60px 60px 80px 60px;
