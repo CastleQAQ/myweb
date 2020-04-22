@@ -509,7 +509,7 @@ button:focus {
   position: absolute;
   top: 0;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
   height: 0;
   opacity: 0;
   padding: 60px 60px 80px 60px;
@@ -522,7 +522,7 @@ button:focus {
   text-align: justify;
 }
 .content__item p:first-of-type {
-  font-size: 1.35em;
+  font-size: 1em;
 }
 
 .content__item p span{
