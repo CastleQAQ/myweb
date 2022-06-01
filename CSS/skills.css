@@ -83,7 +83,16 @@ Slider
   background-image: url(../img/skills/ps.jpg);
 }
 .cd-slider li:nth-of-type(5) .image {
-  background-image: url(../img/skills/ps.jpg);
+  background-image: url(../img/skills/python.jpg);
+}
+.cd-slider li:nth-of-type(6) .image {
+  background-image: url(../img/skills/Rain.jpg);
+}
+.cd-slider li:nth-of-type(7) .image {
+  background-image: url(../img/skills/au.jpg);
+}
+.cd-slider li:nth-of-type(8) .image {
+  background-image: url(../img/skills/pr.jpg);
 }
 .cd-slider .image {
   background-size:contain;
@@ -126,7 +135,15 @@ Slider
 .cd-slider li:nth-of-type(5) .content {
   background-color: bisque;
   color: black;
-  
+}
+.cd-slider li:nth-of-type(6) .content {
+  background-color: #ffcc6a;
+}
+.cd-slider li:nth-of-type(7) .content {
+  background-color: #f40c6a;
+}
+.cd-slider li:nth-of-type(8) .content {
+  background-color: #f46c00;
 }
 .cd-slider h2 {
   font-size: 2.2rem;
